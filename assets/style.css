@@ -1,0 +1,185 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background: #3498db;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.hero .btn:hover {
+    background-color: #c0392b;
+}
+
+/* About Section */
+.about {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills {
+    background: #ecf0f1;
+    padding: 50px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 22%;
+    margin-bottom: 30px;
+}
+
+.skill h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #bdc3c7;
+    position: relative;
+}
+
+.html {
+    width: 90%;
+    background-color: #e67e22;
+}
+
+.css {
+    width: 85%;
+    background-color: #2ecc71;
+}
+
+.bootstrap {
+    width: 80%;
+    background-color: #3498db;
+}
+
+.python {
+    width: 75%;
+    background-color: #9b59b6;
+}
+
+/* Projects Section */
+.projects {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.project {
+    background: #f9f9f9;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    color: #2980b9;
+}
+
+.project p {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    background: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
