@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
+    background-color: beige;
     color: #333;
     line-height: 1.6;
 }
@@ -24,46 +24,72 @@ body {
     color: #fff;
     padding: 80px 0;
     text-align: center;
+    display: flex;
+    
+}
+.hero>.container{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    font-family: "Ysabeau Office", sans-serif;
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    font-family: "Ysabeau Office", sans-serif;
 }
 
-.hero .btn {
+.hero .bt {
     background-color: #e74c3c;
     padding: 10px 20px;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1rem;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #e74c3c;
+}   
 
-.hero .btn:hover {
-    background-color: #c0392b;
+.hero .bt:hover {
+    background-color: #1f1918;
+    border-color: #1f1918;
 }
 
 /* About Section */
 .about {
-    background: #fff;
+    background:#fff;
     padding: 50px 0;
     text-align: center;
 }
+.about .img{
+    aspect-ratio: 1/1;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+
+
 
 .about h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    
 }
-
+.about p{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: large;
+}
 /* Skills Section */
 .skills {
-    background: #ecf0f1;
+    background:rgb(194, 193, 193);
     padding: 50px 0;
 }
 
@@ -80,7 +106,7 @@ body {
 }
 
 .skill {
-    width: 22%;
+    
     margin-bottom: 30px;
 }
 
@@ -93,7 +119,7 @@ body {
 .bar {
     height: 10px;
     border-radius: 5px;
-    background-color: #bdc3c7;
+    background-color: #2195e2;
     position: relative;
 }
 
@@ -104,7 +130,7 @@ body {
 
 .css {
     width: 85%;
-    background-color: #2ecc71;
+    background-color: #30075f;
 }
 
 .bootstrap {
@@ -130,7 +156,7 @@ body {
 }
 
 .project {
-    background: #f9f9f9;
+    background: #927373;
     margin: 15px 0;
     padding: 20px;
     border-radius: 8px;
@@ -138,16 +164,17 @@ body {
 
 .project h3 {
     font-size: 1.8rem;
-    color: #2980b9;
+    color: #3c5c72;
 }
 
 .project p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: "Unbounded", sans-serif;
 }
 
 /* Contact Section */
 .contact {
-    background: #ecf0f1;
+    background: rgb(194, 193, 193);
     padding: 50px 0;
     text-align: center;
 }
@@ -160,6 +187,9 @@ body {
 .contact p {
     font-size: 1.2rem;
     margin: 10px 0;
+    font-family: "Amatic SC", sans-serif;
+
+    
 }
 
 .contact a {
@@ -181,5 +211,6 @@ footer {
 
 footer p {
     font-size: 1rem;
+    font-family: "Permanent Marker", cursive;
 }
 
